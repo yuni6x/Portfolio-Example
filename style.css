@@ -34,18 +34,18 @@ body {
     background: #FF5959;
     border-radius: 5px;
 }
-.title-big h1{
+.title-big p{
     font-family: 'Yeseva One', cursive;
     font-weight: 400;
     font-size: 60px;
     line-height: 80px;
     margin-left: 10px;
 }
-span.one{
+span{
     color: rgba(255, 173, 90, 1);
 }
 .lorem {
-    margin: 20px 20px 30px 0;
+    margin: 20px 40px 20px 0;
 }
 .explore-button{
     width: 168px;
@@ -70,4 +70,54 @@ span.one{
 }
 .right-side img{
     width: 100%;
+}
+
+/* my mission section */
+section{
+    margin: 50px auto;
+}
+
+.myMission-container{
+    display: flex;
+    flex-direction: column;
+}
+.title-mission {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: rgba(19, 16, 58, 1);
+}
+.content-mission {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* display: inline-flex;
+    flex-wrap: wrap;
+    width: calc(100% + 12px); */
+}
+.content {
+    box-sizing: border-box;
+    width: 32%;
+    height: 376px;
+    border-radius: 26px;
+}
+.mission {
+    background-color:  rgba(79, 157, 166, 0.1);
+}
+.vission {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.goals {
+    background-color: rgba(255, 244, 214, 1);
+
+}
+.content img{
+    width: 141px;
+    height: 141px;
+    padding: 15px 12px 0px 32px;
+}
+.content h4,
+.content p {
+    padding: 12px 12px 0px 32px;
 }
