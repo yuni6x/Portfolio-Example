@@ -14,6 +14,7 @@ body {
 /* header section */
 .header-container {
     display: flex;
+    border: 1px solid red;
 }
 .left-side {
     display: flex;
@@ -61,15 +62,12 @@ span.one{
     color: #FFFFFF;
 }
 .right-side {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
-}
-.image {
-    width: 75%;
-    display: flex;
+    align-items: center;
     margin-top: -75px;
 }
-.image img{
+.right-side img{
     width: 100%;
 }
